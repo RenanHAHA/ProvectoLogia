@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProvectoLogia.Sobre"
+             BackgroundColor="#B1865C">
+    <ContentPage.Content>
+        <StackLayout>
+            
+          <Button Text="Voltar"
+                    x:Name="button"
+                    Margin="0,0,259,0"
+                    BackgroundColor="#B1865C"
+                    TextColor="#E7E9DF"/>
+          <Label Text="Resumo da Historia do Aplicativo"
+                 HorizontalOptions="Center"
+                 FontSize="20"
+                 TextColor="#E7E9DF"/>
+            <Label
+                Text="Esse Aplicativo foi desenvolvido por um aluno do Técnico de Informatica do Senac Botucatu."
+                Margin="30,35,10,5"
+                FontSize="20"/>
+            
+            <Label Text="Onde teve uma ideia de Facilitar o entendimento das artes de museus ou galerias de artes, usando uma tecnologia chamada de leitor de QR Code."
+                Margin="30,0,10,5"
+                   FontSize="20"/>
+            
+            <Label Text="onde esta sendo bastante usada em varias ocasiões e esse aluno teve a ideia de colocar no mundo da arte."
+                Margin="30,0,10,5"
+                   FontSize="20"/>
+
+            <Label Text="Inicio do Projeto: 09/09/2019"
+                Margin="30,40,10,5"/>
+
+            <Label Text="Local: Senac Botucatu"
+                Margin="30,0,10,5"/>
+
+            <Label Text="Aluno: Renan de O. F. Cruz"
+                Margin="30,0,10,5"/>
+            <Label Text="Turma: TI 27"
+                Margin="30,0,10,5"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
