@@ -15,6 +15,7 @@ namespace ProvectoLogia
 		public Menu ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

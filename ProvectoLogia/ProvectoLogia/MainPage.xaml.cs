@@ -14,26 +14,32 @@ namespace ProvectoLogia
             InitializeComponent();
         }
 
-        private void ButtonEntrar_Clicked(object sender, EventArgs e)
+        private async void ButtonEntrar_Clicked(object sender, EventArgs e)
         {
 
             if (!string.IsNullOrEmpty(entryUsuario.Text) ||
              !string.IsNullOrEmpty(entrySenha.Text))
             {
-
-                if ((entryUsuario.Text == "Admin") || (entrySenha.Text == "123"))
+                try
                 {
-                    Navigation.PushAsync(new MenuOP());
+                    if ((entryUsuario.Text == "Admin") || (entrySenha.Text == "123"))
+                    {
+                        await Navigation.PushAsync(new CadastroDeUsuario());
+                    }
+                    else
+                    {
+                        await DisplayAlert("Erro", "Não foi possivel entrar! \nErro no nome de Login ou Senha", "Ok");
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    DisplayAlert("Erro", "Não foi possivel entrar! \nErro no nome de Login ou Senha", "Ok");
-                }
 
+                    throw new Exception(ex.Message);
+                }              
             }
             else
             {
-                DisplayAlert("ERRO", "Não deixe os campos em branco", "OK");
+                await DisplayAlert("ERRO", "Não deixe os campos em branco", "OK");
             }
 
         }

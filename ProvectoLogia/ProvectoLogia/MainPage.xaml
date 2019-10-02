@@ -3,31 +3,31 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProvectoLogia"
              x:Class="ProvectoLogia.MainPage"
-             BackgroundColor="#B1865C">
+             BackgroundColor="#C5CAD1">
 
     <StackLayout>
         <!--Tela de login-->
-        <Button Text="Área Administrativa"
+        <!--<Button Text="Área Administrativa"
                TextColor="#E7E9DF"
                 BackgroundColor="#B1865C"
                 Margin="0,0,259,0"
-               />
+               />-->
         <Label Text="LOGIN"
                HorizontalOptions="CenterAndExpand"
                FontSize="30"
-               TextColor="#E7E9DF"/>
+               TextColor="Black"/>
         
         <Entry x:Name="entryUsuario"
                Placeholder="Nome de Usuario"
                HorizontalTextAlignment="Center"
                Margin="0,60,0,0"
-               PlaceholderColor="#E7E9DF"/>
+               PlaceholderColor="Black"/>
         
         <Entry x:Name="entrySenha"
                Placeholder="Senha de Usuario"
                HorizontalTextAlignment="Center"
                Margin="0,60,0,0"
-               PlaceholderColor="#E7E9DF"/>
+               PlaceholderColor="Black"/>
 
         <StackLayout Margin="0,80,0,0">
             <Button Text="Entrar"
@@ -35,7 +35,7 @@
                     x:Name="buttonEntrar"
                     BorderRadius="2"
                     BackgroundColor="#E7E9DF"
-                    TextColor="#383B1E"
+                    TextColor="Black"
                     Clicked="ButtonEntrar_Clicked"/>
             
             <Button Text="Cadastrar"
@@ -44,7 +44,7 @@
                     x:Name="buttonCadastrar"
                     BorderRadius="2"
                     BackgroundColor="#E7E9DF"
-                    TextColor="#383B1E"
+                    TextColor="Black"
                     Clicked="ButtonCadastrar_Clicked"/>
         </StackLayout>
         

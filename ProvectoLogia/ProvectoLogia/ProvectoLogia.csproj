@@ -33,4 +33,31 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CadastroDeAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="CadastroDeUsuario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Contato.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Menu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MenuOP.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Sobre.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
 </Project>

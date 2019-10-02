@@ -8,7 +8,7 @@
 
             <ContentPage.Content>
 
-                <StackLayout>
+                <StackLayout BackgroundColor="#C5CAD1">
 
                     <TableView>
 
