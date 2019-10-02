@@ -35,7 +35,8 @@
                     x:Name="buttonEntrar"
                     BorderRadius="2"
                     BackgroundColor="#E7E9DF"
-                    TextColor="#383B1E"/>
+                    TextColor="#383B1E"
+                    Clicked="ButtonEntrar_Clicked"/>
             
             <Button Text="Cadastrar"
                     Margin="0,30,0,0"
@@ -43,7 +44,8 @@
                     x:Name="buttonCadastrar"
                     BorderRadius="2"
                     BackgroundColor="#E7E9DF"
-                    TextColor="#383B1E"/>
+                    TextColor="#383B1E"
+                    Clicked="ButtonCadastrar_Clicked"/>
         </StackLayout>
         
     </StackLayout>

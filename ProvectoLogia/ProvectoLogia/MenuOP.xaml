@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProvectoLogia.MenuOP">
+    <MasterDetailPage.Master>
+
+        <ContentPage Title="Menu de opções">
+
+            <ContentPage.Content>
+
+                <StackLayout>
+
+                    <TableView>
+
+                        <TableSection>
+
+                            <ViewCell x:Name="PaginaSobre"
+                                      Tapped="PaginaSobre_Tapped_1">
+
+                                <StackLayout>
+
+                                    <Label Text="Sobre"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                            <ViewCell x:Name="PaginaDeLeitor"
+                                      Tapped="PaginaDeLeitor_Tapped">
+
+                                <StackLayout>
+
+                                    <Label Text="Leitor de QR Code"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                            <ViewCell x:Name="PaginaContato"
+                                      Tapped="PaginaContato_Tapped">
+
+                                <StackLayout>
+
+                                    <Label Text="Contatos"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                            <ViewCell x:Name="PaginaGaleria"
+                                      Tapped="PaginaGaleria_Tapped">
+
+                                <StackLayout>
+
+                                    <Label Text="Galeria"
+                                           TextColor="Red"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                            <ViewCell x:Name="PaginaAgendamento"
+                                      Tapped="PaginaAgendamento_Tapped">
+
+                                <StackLayout>
+
+                                    <Label Text="Agendamento"
+                                           TextColor="Red"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
+                        </TableSection>
+
+                    </TableView>
+                    
+                </StackLayout>
+                
+            </ContentPage.Content>
+            
+        </ContentPage>
+        
+    </MasterDetailPage.Master>
+</MasterDetailPage>

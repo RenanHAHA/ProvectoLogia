@@ -5,7 +5,7 @@
              BackgroundColor="#B1865C">
     <ContentPage.Content>
         <StackLayout>
-            
+            <Label Text="Aqui  vai ter imagens ilustrativas!"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
