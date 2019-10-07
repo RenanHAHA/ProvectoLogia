@@ -16,6 +16,7 @@ namespace ProvectoLogia
         {
             InitializeComponent();
             Detail = new NavigationPage(new Menu());
+            NavigationPage.SetHasNavigationBar(this, false);
         }
         
 

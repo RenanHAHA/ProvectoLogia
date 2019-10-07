@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProvectoLogia.Contato"
-             BackgroundColor="#B1865C">
+             BackgroundColor="#C5CAD1">
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Voltar"
                     x:Name="buttonVoltar"
                     Margin="0,0,259,0"
-                    BackgroundColor="#B1865C"
-                    TextColor="#E7E9DF"/>
+                    BackgroundColor="#C5CAD1"
+                    TextColor="Black"/>
             
             <Label Text="Contatos do aplicativos e do museu"
                  HorizontalOptions="Center"
@@ -19,52 +19,53 @@
 
             <Label Text="Museu:"
                    Margin="5,0,0,0"
-                   FontSize="15"/>
+                   FontSize="15"
+                   TextColor="Black"/>
             
             <Label Text="Telefone do museu: "
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="Local do Museu:  "
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="Bairoo:********"
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="Rua: ********"
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="Numero: **"
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="E-mail do Museu: ExemploDeEmail@ficticio.com "
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
 
             <Label Text="Aplicativo: ProvectoLogia"
                    Margin="5,35,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="Telefone da Assistência: (14) 99789-7159"
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
             
             <Label Text="E-mail da Assistência: renanzinho999@hotmail.com"
                    Margin="10,0,0,0"
                    FontSize="15"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

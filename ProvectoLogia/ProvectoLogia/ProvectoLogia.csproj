@@ -14,28 +14,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Agendamento.xaml">
+    <EmbeddedResource Update="Telas\Agendamento.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="AgendamentoHorarios.xaml">
+    <EmbeddedResource Update="Telas\AgendamentoHorarios.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="CadastroDeAdmin.xaml">
+    <EmbeddedResource Update="Telas\CadastroDeAdmin.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="CadastroDeUsuario.xaml">
+    <EmbeddedResource Update="Telas\CadastroDeUsuario.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Contato.xaml">
+    <EmbeddedResource Update="Telas\Contato.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Menu.xaml">
+    <EmbeddedResource Update="Telas\Menu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MenuOP.xaml">
+    <EmbeddedResource Update="Telas\MenuOP.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Sobre.xaml">
+    <EmbeddedResource Update="Telas\Sobre.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -65,5 +65,10 @@
     <None Update="Sobre.xaml">
       <Generator>MSBuild:Compile</Generator>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model%27s\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
 </Project>

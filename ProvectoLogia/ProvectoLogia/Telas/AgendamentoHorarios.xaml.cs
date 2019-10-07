@@ -15,6 +15,7 @@ namespace ProvectoLogia
 		public AgendamentoHorarios ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

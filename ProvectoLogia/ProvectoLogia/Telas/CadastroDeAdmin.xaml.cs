@@ -10,16 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace ProvectoLogia
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Agendamento : ContentPage
+	public partial class CadastroDeAdmin : ContentPage
 	{
-		public Agendamento ()
+		public CadastroDeAdmin ()
 		{
 			InitializeComponent ();
-		}
-
-        private void ButtonAgendarHorario_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new AgendamentoHorarios());
+            NavigationPage.SetHasNavigationBar(this, false);
         }
-    }
+	}
 }

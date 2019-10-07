@@ -12,6 +12,7 @@ namespace ProvectoLogia
         public MainPage()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
         }
 
         private async void ButtonEntrar_Clicked(object sender, EventArgs e)

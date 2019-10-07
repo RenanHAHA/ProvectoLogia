@@ -10,11 +10,12 @@ using Xamarin.Forms.Xaml;
 namespace ProvectoLogia
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CadastroDeUsuario : ContentPage
+	public partial class Contato : ContentPage
 	{
-		public CadastroDeUsuario ()
+		public Contato ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

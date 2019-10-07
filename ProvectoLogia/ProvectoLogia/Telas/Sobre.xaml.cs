@@ -15,6 +15,7 @@ namespace ProvectoLogia
 		public Sobre ()
 		{
 			InitializeComponent ();
-		}
+            NavigationPage.SetHasNavigationBar(this, false);
+        }
 	}
 }

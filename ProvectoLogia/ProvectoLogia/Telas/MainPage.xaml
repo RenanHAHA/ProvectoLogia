@@ -27,7 +27,8 @@
                Placeholder="Senha de Usuario"
                HorizontalTextAlignment="Center"
                Margin="0,60,0,0"
-               PlaceholderColor="Black"/>
+               PlaceholderColor="Black"
+               IsPassword="True"/>
 
         <StackLayout Margin="0,80,0,0">
             <Button Text="Entrar"
