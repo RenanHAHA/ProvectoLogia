@@ -6,6 +6,10 @@
     <ContentPage.Content>
         <StackLayout>
 
+            <Image Source="Pastel_resize"
+                   Margin="20,30,20,10"
+                   WidthRequest="200"
+                   HeightRequest="200"/>
 
             <Label Text="Aqui  vai ter imagens ilustrativas!"/>
         </StackLayout>
