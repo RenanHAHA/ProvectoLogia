@@ -17,11 +17,7 @@ namespace ProvectoLogia
             InitializeComponent();
             Detail = new NavigationPage(new Menu());
         }
-
-        private void PaginaSobre_Tapped(object sender, EventArgs e)
-        {
-            // Criei errado ;---;
-        }
+        
 
         private void PaginaSobre_Tapped_1(object sender, EventArgs e)
         {
@@ -51,10 +47,8 @@ namespace ProvectoLogia
 
         private void PaginaAgendamento_Tapped(object sender, EventArgs e)
         {
-            //Detail = new NavigationPage(new Agendamento());
-            //IsPresented = false;
-            //Esta em procedimento
-            //Ainda não esta feito
+            Detail = new NavigationPage(new Agendamento());
+            IsPresented = false;
         }
     }
 }

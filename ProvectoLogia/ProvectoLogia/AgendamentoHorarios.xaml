@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProvectoLogia.AgendamentoHorarios"
+             BackgroundColor="#C5CAD1">
+    
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Voltar"
+                    x:Name="button"
+                    Margin="0,0,259,0"
+                    BackgroundColor="#C5CAD1"
+                    TextColor="Black"/>
+
+            <StackLayout Orientation="Horizontal">
+
+                <ListView x:Name="listView01">
+
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <TextCell x:Name="listHorarios"
+                                      Text="Horarios">
+
+                            </TextCell>
+
+                            
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+                <ListView x:Name="listView02">
+
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+
+                            <TextCell x:Name="listDisponivel"
+                                      Text="Disponivel/Indisponivel">
+
+                            </TextCell>
+
+
+                        </DataTemplate>
+
+                    </ListView.ItemTemplate>
+
+                </ListView>
+
+            </StackLayout>
+
+            <Button Text="Comfirmar Agendamento"
+                    x:Name="buttomConfirmarAgendamento"
+                    Margin="40,20,40,20"
+                    BackgroundColor="#E7E9DF"
+                    TextColor="Black"/>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

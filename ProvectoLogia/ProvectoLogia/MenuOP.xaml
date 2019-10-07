@@ -4,13 +4,13 @@
              x:Class="ProvectoLogia.MenuOP">
     <MasterDetailPage.Master>
 
-        <ContentPage Title="Menu de opções">
+        <ContentPage Title="Menu">
 
             <ContentPage.Content>
 
                 <StackLayout BackgroundColor="#C5CAD1">
 
-                    <TableView>
+                    <TableView Intent="Menu">
 
                         <TableSection>
 
@@ -32,7 +32,8 @@
                                 <StackLayout>
 
                                     <Label Text="Leitor de QR Code"
-                                           HorizontalTextAlignment="Center"/>
+                                           HorizontalTextAlignment="Center"
+                                           TextColor="Red"/>
 
                                 </StackLayout>
 
@@ -69,7 +70,6 @@
                                 <StackLayout>
 
                                     <Label Text="Agendamento"
-                                           TextColor="Red"
                                            HorizontalTextAlignment="Center"/>
 
                                 </StackLayout>

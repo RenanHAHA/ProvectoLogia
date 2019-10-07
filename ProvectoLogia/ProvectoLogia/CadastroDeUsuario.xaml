@@ -2,43 +2,43 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProvectoLogia.CadastroDeUsuario"
-             BackgroundColor="#B1865C">
+             BackgroundColor="#C5CAD1">
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Voltar"
                     x:Name="button"
                     Margin="0,0,259,0"
-                    BackgroundColor="#B1865C"
-                    TextColor="#E7E9DF"/>
+                    BackgroundColor="#C5CAD1"
+                    TextColor="Black"/>
 
             <Label Text="Cadastro de Usuarios"
                    FontSize="30"
                    HorizontalOptions="CenterAndExpand"
-                   TextColor="#E7E9DF"/>
+                   TextColor="Black"/>
 
             <Entry x:Name="entryNomeUsuario"
                    Placeholder="Digite um nome de Usuario"
                    HorizontalTextAlignment="Center"
                    Margin="5,60,5,0"
-                   PlaceholderColor="#E7E9DF"/>
+                   PlaceholderColor="Black"/>
             
             <Entry x:Name="entrySenhaUsuario"
                    Placeholder="Digite uma senha de Usuario"
                    HorizontalTextAlignment="Center"
                    Margin="5,60,5,0"
-                   PlaceholderColor="#E7E9DF"/>
+                   PlaceholderColor="Black"/>
             
             <Entry x:Name="entryComfirmarSenhaUsuario"
                    Placeholder="Comfirme sua senha de Usuario"
                    HorizontalTextAlignment="Center"
                    Margin="5,60,5,0"
-                   PlaceholderColor="#E7E9DF"/>
+                   PlaceholderColor="Black"/>
 
             <Button Text="Cadastrar Usuario"
                     x:Name="buttonCadastroUsuario"
                     Margin="60,30,60,0"
                     BackgroundColor="#E7E9DF"
-                    TextColor="#383B1E"/>
+                    TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

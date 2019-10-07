@@ -24,7 +24,7 @@ namespace ProvectoLogia
                 {
                     if ((entryUsuario.Text == "Admin") || (entrySenha.Text == "123"))
                     {
-                        await Navigation.PushAsync(new CadastroDeUsuario());
+                        await Navigation.PushAsync(new MenuOP());
                     }
                     else
                     {

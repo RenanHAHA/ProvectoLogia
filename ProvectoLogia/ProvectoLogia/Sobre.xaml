@@ -2,15 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProvectoLogia.Sobre"
-             BackgroundColor="#B1865C">
+             BackgroundColor="#C5CAD1">
     <ContentPage.Content>
         <StackLayout>
             
           <Button Text="Voltar"
                     x:Name="button"
                     Margin="0,0,259,0"
-                    BackgroundColor="#B1865C"
-                    TextColor="#E7E9DF"/>
+                    BackgroundColor="#C5CAD1"
+                    TextColor="Black"/>
           <Label Text="Resumo da Historia do Aplicativo"
                  HorizontalOptions="Center"
                  FontSize="20"
