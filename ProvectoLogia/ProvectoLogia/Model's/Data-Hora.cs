@@ -16,7 +16,10 @@ namespace ProvectoLogia.Model_s
             try
             {
 
-                var SQL = $"INSERT INTO DataHora (Horarios, Opcao) VALUES ('12:30', 'Disponivel')";
+                var SQL = $"INSERT INTO DataHora (Horarios, Opcao) VALUES ('12:30', 'Disponivel')" +
+                    $"INSERT INTO DataHora (Horarios, Opcao) VALUES ('14:30', 'Disponivel')" +
+                    $"INSERT INTO DataHora (Horarios, Opcao) VALUES ('16:30', 'Disponivel')" +
+                    $"INSERT INTO DataHora (Horarios, Opcao) VALUES ('18:20', 'Disponivel')";
                 
                 return true;
             }
