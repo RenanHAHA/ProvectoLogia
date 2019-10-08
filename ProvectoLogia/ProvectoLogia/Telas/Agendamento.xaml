@@ -6,10 +6,11 @@
     <ContentPage.Content>
         <StackLayout>
             <Button Text="Voltar"
-                    x:Name="button"
+                    x:Name="buttonVoltar"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="ButtonVoltar_Clicked"/>
 
             <Button Text="Agendar Horarios"
                     Margin="90,100,90,0"

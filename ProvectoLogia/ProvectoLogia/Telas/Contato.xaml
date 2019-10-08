@@ -9,7 +9,8 @@
                     x:Name="buttonVoltar"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="ButtonVoltar_Clicked"/>
             
             <Label Text="Contatos do aplicativos e do museu"
                  HorizontalOptions="Center"

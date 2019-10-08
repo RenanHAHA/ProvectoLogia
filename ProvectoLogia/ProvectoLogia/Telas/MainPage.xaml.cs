@@ -17,13 +17,16 @@ namespace ProvectoLogia
 
         private async void ButtonEntrar_Clicked(object sender, EventArgs e)
         {
+           
 
             if (!string.IsNullOrEmpty(entryUsuario.Text) ||
              !string.IsNullOrEmpty(entrySenha.Text))
             {
+                Model_s.Usuarios Main = new Model_s.Usuarios();
+                bool resultadoLogin = Main.Entrar(entryUsuario.Text, entrySenha.Text);
                 try
                 {
-                    if ((entryUsuario.Text == "Admin") || (entrySenha.Text == "123"))
+                    if (resultadoLogin == true)
                     {
                         await Navigation.PushAsync(new MenuOP());
                     }

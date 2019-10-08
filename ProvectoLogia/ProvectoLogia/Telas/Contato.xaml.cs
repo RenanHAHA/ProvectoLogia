@@ -17,5 +17,12 @@ namespace ProvectoLogia
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this, false);
         }
-	}
+
+        private void ButtonVoltar_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new MenuOP());
+
+        }
+    }
 }

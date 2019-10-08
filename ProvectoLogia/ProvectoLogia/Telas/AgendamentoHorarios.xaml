@@ -4,14 +4,13 @@
              x:Class="ProvectoLogia.AgendamentoHorarios"
              BackgroundColor="#C5CAD1">
     
-    
-    <ContentPage.Content>
         <StackLayout>
             <Button Text="Voltar"
                     x:Name="button"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="Button_Clicked"/>
 
             <StackLayout Orientation="Horizontal">
 
@@ -21,12 +20,10 @@
 
                         <DataTemplate>
 
-                            <TextCell x:Name="listHorarios"
-                                      Text="Horarios">
-
+                            <TextCell Text="{Binding Horarios}">
+                                
                             </TextCell>
 
-                            
                         </DataTemplate>
 
                     </ListView.ItemTemplate>
@@ -39,13 +36,11 @@
 
                         <DataTemplate>
 
-                            <TextCell x:Name="listDisponivel"
-                                      Text="Disponivel/Indisponivel">
+                           <TextCell Text="{Binding Opcao}">
 
-                            </TextCell>
+                           </TextCell>
 
-
-                        </DataTemplate>
+                    </DataTemplate>
 
                     </ListView.ItemTemplate>
 
@@ -53,14 +48,16 @@
 
             </StackLayout>
 
-            <Button Text="Comfirmar Agendamento"
+
+            <!--<Button Text="Comfirmar Agendamento"
                     x:Name="buttomConfirmarAgendamento"
                     Margin="40,20,40,20"
                     BackgroundColor="#E7E9DF"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="ButtomConfirmarAgendamento_Clicked"/>-->
 
         </StackLayout>
         
-    </ContentPage.Content>
+    
     
 </ContentPage>

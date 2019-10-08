@@ -23,7 +23,7 @@ namespace ProvectoLogia
         private void PaginaSobre_Tapped_1(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new Sobre());
-            IsPresented = false;//Fecha o menu
+            IsPresented = false; //Fecha o menu
         }
 
         private void PaginaDeLeitor_Tapped(object sender, EventArgs e)
@@ -51,5 +51,6 @@ namespace ProvectoLogia
             Detail = new NavigationPage(new Agendamento());
             IsPresented = false;
         }
+        
     }
 }

@@ -10,7 +10,8 @@
                     x:Name="button"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                  Clicked="Button_Clicked"/>
           <Label Text="Resumo da Historia do Aplicativo"
                  HorizontalOptions="Center"
                  FontSize="20"

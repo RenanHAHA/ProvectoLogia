@@ -22,5 +22,10 @@ namespace ProvectoLogia
         {
             Navigation.PushAsync(new AgendamentoHorarios());
         }
+
+        private void ButtonVoltar_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MenuOP());
+        }
     }
 }

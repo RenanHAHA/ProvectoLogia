@@ -9,7 +9,8 @@
                     x:Name="button"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="Button_Clicked"/>
 
             <Label Text="Cadastro de Usuarios"
                    FontSize="30"
@@ -38,7 +39,8 @@
                     x:Name="buttonCadastroUsuario"
                     Margin="60,30,60,0"
                     BackgroundColor="#E7E9DF"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    Clicked="ButtonCadastroUsuario_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

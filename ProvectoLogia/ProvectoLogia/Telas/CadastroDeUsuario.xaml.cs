@@ -17,5 +17,29 @@ namespace ProvectoLogia
 			InitializeComponent ();
             NavigationPage.SetHasNavigationBar(this, false);
         }
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+
+            Navigation.PushAsync(new MainPage());
+
+        }
+
+        private void ButtonCadastroUsuario_Clicked(object sender, EventArgs e)
+        {
+
+            if (entryComfirmarSenhaUsuario.Text == entrySenhaUsuario.Text)
+            {
+
+                string sql = $"INSERT INTO Usuarios (NomeDeUsuario, SenhaDeUsuario) VALUES ('{entryNomeUsuario.Text}', '{entrySenhaUsuario.Text}')";
+                ((App)Application.Current).conexao.Execute(sql);
+                DisplayAlert("SUCESSO", "Cadastrado com Sucesso", "OK");
+
+            }
+            else
+            {
+                DisplayAlert("Erro", "As senhas estão diferentes", "OK");
+            }
+        }
+    }
 }
