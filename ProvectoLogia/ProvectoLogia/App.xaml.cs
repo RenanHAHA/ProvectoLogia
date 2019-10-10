@@ -35,6 +35,7 @@ namespace ProvectoLogia
             conexao.Execute("CREATE TABLE IF NOT EXISTS DataHora (id INTEGER PRIMARY KEY AUTOINCREMENT, Horarios TEXT, Opcao TEXT)");
 
             InitializeComponent();
+            
 
             MainPage = new NavigationPage(new MainPage());
         }

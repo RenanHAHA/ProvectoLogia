@@ -33,7 +33,7 @@ namespace ProvectoLogia
 
                 string sql = $"INSERT INTO Usuarios (NomeDeUsuario, SenhaDeUsuario) VALUES ('{entryNomeUsuario.Text}', '{entrySenhaUsuario.Text}')";
                 ((App)Application.Current).conexao.Execute(sql);
-                DisplayAlert("SUCESSO", "Cadastrado com Sucesso", "OK");
+                DisplayAlert("SUCESSO", "Seu Usuario foi cadastrado", "OK");
 
             }
             else

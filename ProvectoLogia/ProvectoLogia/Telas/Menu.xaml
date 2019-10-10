@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProvectoLogia.Menu"
              BackgroundColor="#C5CAD1">
-    <ContentPage.Content>
+
+    <ScrollView>
+
         <StackLayout>
 
             <Image Source="Pastel_resize"
@@ -11,7 +13,17 @@
                    WidthRequest="200"
                    HeightRequest="200"/>
 
-            <Label Text="Aqui  vai ter imagens ilustrativas!"/>
+            <Image Source="Img03"
+                   Margin="15,20,15,0"/>
+            
+            <Image Source="Img11"
+                   Margin="15,20,15,0"/>
+            
+            <Image Source="Img05"
+                   Margin="15,20,15,20"/>
+            
         </StackLayout>
-    </ContentPage.Content>
+
+    </ScrollView>
+  
 </ContentPage>

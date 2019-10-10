@@ -11,6 +11,8 @@ namespace ProvectoLogia.Model_s
 
         public string Info { get; set; }
 
+
+
         public bool Inserir()
         {
             try

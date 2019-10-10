@@ -15,7 +15,7 @@
           <Label Text="Resumo da Historia do Aplicativo"
                  HorizontalOptions="Center"
                  FontSize="20"
-                 TextColor="#E7E9DF"/>
+                 TextColor="Black"/>
             <Label
                 Text="Esse Aplicativo foi desenvolvido por um aluno do Técnico de Informatica do Senac Botucatu."
                 Margin="30,35,10,5"

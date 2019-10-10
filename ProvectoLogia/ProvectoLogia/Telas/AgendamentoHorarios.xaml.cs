@@ -25,7 +25,7 @@ namespace ProvectoLogia
             
             string sql = "SELECT * FROM DataHora";
             var lista = ((App)Application.Current).conexao.Query<Model_s.Data_Hora>(sql);
-            listView01.ItemsSource = lista;
+            listViewAgendar.ItemsSource = lista;
 
         }
 

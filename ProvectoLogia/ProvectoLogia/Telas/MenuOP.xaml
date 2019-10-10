@@ -76,6 +76,18 @@
 
                             </ViewCell>
 
+                            <ViewCell x:Name="ButtonSair"
+                                      Tapped="ButtonSair_Tapped">
+
+                                <StackLayout>
+
+                                    <Label Text="Logout"
+                                           HorizontalTextAlignment="Center"/>
+
+                                </StackLayout>
+
+                            </ViewCell>
+
                         </TableSection>
 
                     </TableView>

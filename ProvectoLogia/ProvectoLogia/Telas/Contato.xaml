@@ -15,7 +15,7 @@
             <Label Text="Contatos do aplicativos e do museu"
                  HorizontalOptions="Center"
                  FontSize="20"
-                 TextColor="#E7E9DF"
+                 TextColor="Black"
                    Margin="0,10,0,50"/>
 
             <Label Text="Museu:"

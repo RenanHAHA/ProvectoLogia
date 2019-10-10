@@ -4,50 +4,108 @@
              x:Class="ProvectoLogia.AgendamentoHorarios"
              BackgroundColor="#C5CAD1">
     
-        <StackLayout>
-            <Button Text="Voltar"
+    <StackLayout>
+
+        <ScrollView Orientation="Horizontal">
+
+            <StackLayout>
+
+                <Button Text="Voltar"
                     x:Name="button"
                     Margin="0,0,259,0"
                     BackgroundColor="#C5CAD1"
                     TextColor="Black"
                     Clicked="Button_Clicked"/>
 
-            <StackLayout Orientation="Horizontal">
+                <Grid BackgroundColor="#95999E">
 
-                <ListView x:Name="listView01">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="Auto"/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="150"/>
+                     
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Column="0"
+                           Grid.Row="0"
+                           Text="Data / Hora"
+                           BackgroundColor="#708CAE"
+                           TextColor="Black"
+                           FontSize="12"/>
+                    
+                    <Label Grid.Column="1"
+                           Grid.Row="0"
+                           Text="Disponivel / Indisponivel"
+                           BackgroundColor="#708CAE"
+                           TextColor="Black"
+                           FontSize="12"/>
+
+                </Grid>
+
+                <ListView x:Name="listViewAgendar" 
+                          BackgroundColor="#95999E" 
+                          HasUnevenRows="True" 
+                          IsPullToRefreshEnabled="True">
 
                     <ListView.ItemTemplate>
 
                         <DataTemplate>
 
-                            <TextCell Text="{Binding Horarios}">
+                            <ViewCell >
+
+                                <ViewCell.ContextActions>
+
+                                    
+
+                                </ViewCell.ContextActions>
+
+                                <Grid>
+
+                                    <Grid.RowDefinitions>
+
+                                        <RowDefinition Height="Auto"/>
+
+                                    </Grid.RowDefinitions>
+
+                                    <Grid.ColumnDefinitions>
+
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="150"/>
+
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <Label Grid.Column="0"
+                                           Text="{Binding Horarios}"
+                                           TextColor="Black"
+                                           FontSize="12"/>
+
+                                    <Label Grid.Column="1"
+                                           Text="{Binding Opcao}"
+                                           TextColor="Black"
+                                           FontSize="12"/>
+
+                                </Grid>
                                 
-                            </TextCell>
-
+                            </ViewCell>
+                            
                         </DataTemplate>
-
+                        
                     </ListView.ItemTemplate>
-
+                    
+                    
                 </ListView>
-
-                <ListView x:Name="listView02">
-
-                    <ListView.ItemTemplate>
-
-                        <DataTemplate>
-
-                           <TextCell Text="{Binding Opcao}">
-
-                           </TextCell>
-
-                    </DataTemplate>
-
-                    </ListView.ItemTemplate>
-
-                </ListView>
-
+                
             </StackLayout>
 
+        </ScrollView>
+        
+        <StackLayout>
 
             <Button Text="Comfirmar Agendamento"
                     x:Name="buttomConfirmarAgendamento"
@@ -57,7 +115,7 @@
                     Clicked="ButtomConfirmarAgendamento_Clicked"/>
 
         </StackLayout>
+
+    </StackLayout>
         
-    
-    
 </ContentPage>

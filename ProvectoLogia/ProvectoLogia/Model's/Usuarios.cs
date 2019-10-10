@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProvectoLogia.Model_s
 {
-    class Usuarios
+    public class Usuarios
     {
 
         public int ID { get; set; }

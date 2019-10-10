@@ -51,6 +51,11 @@ namespace ProvectoLogia
             Detail = new NavigationPage(new Agendamento());
             IsPresented = false;
         }
-        
+
+        private void ButtonSair_Tapped(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new MainPage());
+            IsPresented = false;
+        }
     }
 }
